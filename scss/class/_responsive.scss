@@ -1,0 +1,42 @@
+@media (max-width: 767px) {
+	.logo{
+		position: relative;
+		top: 28px;
+    	z-index: 9999;
+	}
+	.navbar-toggle {
+	    position: relative;
+	    bottom: 18px;
+	}
+	.footer-item {
+	    padding: 10px 0px;
+	}
+	.fullSlider img {
+	    width: 100%;
+	    @include noPadding;
+	    height: 100%; 
+	}
+	.product_description {
+	    margin: 30px 0px;
+	}
+	.detail_product .product_description .catalog-cart {
+		display: block;
+		width: $fullWidth;
+	}
+	.promo_catalog {
+	    padding: 10px 0px 10px;
+	    margin-bottom: 8%;
+	    margin-top: 5%;
+	}
+	.fa-chevron-circle-right,
+	.fa-chevron-circle-left {
+	    position: relative;
+	    top: 7em;
+	}
+	.catalog-column{
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
